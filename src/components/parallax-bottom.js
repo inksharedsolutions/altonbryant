@@ -7,10 +7,7 @@ import React from 'react'
             <section className="parallax-bottom">
                 <div className="flex-container">
                     <h1>
-                      Sometimes, science is just the application of someone’s imagination
-                        <span className="italic-tag span-verse">
-                            Perry Defiore
-                        </span>
+                    	“Greed has come to Mars.”
                     </h1>
                 </div>
             </section>

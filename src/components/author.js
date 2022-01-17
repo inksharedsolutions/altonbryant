@@ -9,15 +9,14 @@ const Author = () =>{
                     <div className="grid-child" id="author-contents">
 
                         <p>
-                          Perry DeFiore is a decorated Vietnam veteran who has always been interested
-                          in science. He was a junior high school principal in a foreign country for twenty years 
-                          and, during that time, founded a scientific society for the development of young 
-                          scientists, taking them on various expeditions in Mexico.
+                        Alton was born in Johns Hopkins Hospital in Baltimore, MD, on December 11, 1966, to Alton Bryant and Annie Brown. 
+                        For much of his childhood, his family moved several times throughout Prince Georges County in Maryland.
+                        His family was not a wealthy one. Their family suffered moments without home security, electricity, water, gas and food. 
                         </p>
 
                         <h1 className="author-name-tag">
-                          <span>Perry</span>
-                          <span>Defiore</span>
+                          <span>Alton</span>
+                          <span>Bryant</span>
                         </h1>
                         
                         <span className="author-tagline">

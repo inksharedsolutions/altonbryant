@@ -27,11 +27,13 @@ const MidBook = (props)=>{
                             </h1>
 
                             <p>
-                                Ralph Mullen is a famous toxicologist who has done many investigations 
-                                for the United States government and has recently retired; however, 
-                                good men, especially with Ralph’s talents in science and skill as a 
-                                Force Recon Marine, are not allowed to retire so easily. They become
-                                part-time  retirees.
+                                Humans live, work, and play throughout the solar system. Ferdinand Abernaum, 
+                                born with multiple birth defects, is now a premiere coder who has augmented 
+                                his abilities beyond general human capabilities. Now he is a member of an elite 
+                                team of universal explorers, The Marlagans. He, Jim, Becca, Zin, and Rhoan accept 
+                                their first mission since the recent death of their former crewmate, Dr. Banthira. 
+                                Join us as the Marlagans face threats from every angle on their latest controversial 
+                                and confidential mission.
                             </p>
 
                             <button className="btn-book-featured">
