@@ -7,29 +7,6 @@ const Nav = (props) =>{
 	const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
 
-	// const pages = [
-	// 	 'Home',
-	// 	 'About-the-Author',
-	// 	 'About-the-Book',
-	// 	 'Contact'
-	// ]
-
-	// let Listed = pages.map((e) =>{
- 		
-	// 	var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-	// 	let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
-
-	// 	return (
-	// 		<li>
-	// 			<Link 
-	// 				to={filterUrl}>
-	// 				{e.replace(/[-/]/g," ").trim()}
-	// 			</Link>	
-	// 		</li>
-	// 	)
-		
-	// })
-
 	const clickEvent = (e)=> {
 		setToggled(!toggled);
 	}
@@ -89,12 +66,12 @@ const Nav = (props) =>{
                                 Books
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to='/videos'>
                                 Videos
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link
                                 to='/contact'>

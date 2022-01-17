@@ -11,7 +11,7 @@ const Trailer = (props) =>{
                 <div className="grid-two-columns" id="trailer-body">
                     
                     <div className="grid-child-content">
-                        <h5>Perry Defiore</h5>
+                        <h5>Alton Bryant</h5>
                         <h1>
                             <span>{props.title1}</span>
                             <span>{props.title2}</span>

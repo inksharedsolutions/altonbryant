@@ -1,15 +1,15 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import {faTwitter, faInstagram, faFacebook, faGoodreads} from '@fortawesome/fontawesome-free-brands'
+import { Link } from 'gatsby'
+import { faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LogoFooter from '../../static/logo/stratton-footer-logo.png'
-import  Logo from '../../static/logo/logo.png'
+import Logo from '../../static/logo/logo.png'
 import Newsletter from "./newsletter"
 
 
-const Footer = ()=>{
-    
-    return(
+const Footer = () => {
+
+    return (
         <>
             <footer className="footer-section">
                 <div className="footer-container footer-grid">
@@ -22,69 +22,69 @@ const Footer = ()=>{
                         </h1>
 
                         <p>
-                            Perry Defiore loves to hear from readers. You can reach him via email. 
-                            Feel free to send questions about writing, his works, interviews 
+                            Alton Bryant loves to hear from readers. You can reach him via email.
+                            Feel free to send questions about writing, his works, interviews
                             and other publicity matters.
-                        </p> 
-                        
-                    <nav className="social-media-nav">
-                        <ul>
+                        </p>
 
-                            <li>
-                                <a href="https://www.facebook.com/PerryDeFioreBooks/"
-                                target="_blank"
-                                rel="noreferrer">
-                                    <FontAwesomeIcon   
-                                        className='font-awesome'
-                                        icon={faFacebook} />
-                                </a>
-                            </li>
+                        <nav className="social-media-nav">
+                            <ul>
 
-                            <li>
-                                <a
-                                    target="_blank"
-                                    href="https://twitter.com/StrattonPress"
-                                    rel="noreferrer"
-                                    >
-                                        
-                                    <FontAwesomeIcon
-                                        className='font-awesome'
-                                        icon={faTwitter} />
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="https://www.facebook.com/PerryDeFioreBooks/"
+                                        target="_blank"
+                                        rel="noreferrer">
+                                        <FontAwesomeIcon
+                                            className='font-awesome'
+                                            icon={faFacebook} />
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a          
-                                    target="_blank"
-                                    href="https://www.instagram.com/strattonpress/"
-                                    rel="noreferrer"
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="https://twitter.com/StrattonPress"
+                                        rel="noreferrer"
                                     >
 
-                                    <FontAwesomeIcon
-                                        className='font-awesome'
-                                        icon={faInstagram} />
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a 
-                                    target="_blank"
-                                    href="https://www.goodreads.com/author/show/3409410.Perry_Defiore"
-                                    rel="noreferrer"
+                                        <FontAwesomeIcon
+                                            className='font-awesome'
+                                            icon={faTwitter} />
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="https://www.instagram.com/strattonpress/"
+                                        rel="noreferrer"
                                     >
 
-                                    <FontAwesomeIcon 
-                                        className='font-awesome'
-                                        icon={faGoodreads} />
-                                </a>
-                            </li>
-                        </ul>
+                                        <FontAwesomeIcon
+                                            className='font-awesome'
+                                            icon={faInstagram} />
+                                    </a>
+                                </li>
 
-                    </nav>
-                </div>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="https://www.goodreads.com/author/show/3409410.Perry_Defiore"
+                                        rel="noreferrer"
+                                    >
 
-                <div className="footer-child footer-nav">
-                    <h5>Navigations</h5>
+                                        <FontAwesomeIcon
+                                            className='font-awesome'
+                                            icon={faGoodreads} />
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                    <div className="footer-child footer-nav">
+                        <h5>Navigations</h5>
                         <ul>
                             <li>
                                 <Link to="/">
@@ -118,20 +118,20 @@ const Footer = ()=>{
 
                     <div className="footer-child" id="newsletter">
                         <h5>Newsletter</h5>
-                            <p>Stay up to date with the latest from me</p>
-                        <Newsletter/>
+                        <p>Stay up to date with the latest from me</p>
+                        <Newsletter />
                     </div>
                 </div>
 
                 <div className="two-grid-column" id="lower-footer">
                     <p>
-                        <img 
+                        <img
                             alt="logo-developer"
                             className="logo-developer"
                             src={LogoFooter}
                         />
 
-                         &#169; Copyright 2020. Stratton Press.
+                        &#169; Copyright 2020. Stratton Press.
                     </p>
 
                     <ul className="two-grid-column" id="metalinks-footer">
