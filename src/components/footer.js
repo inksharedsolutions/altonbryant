@@ -31,7 +31,7 @@ const Footer = () => {
                             <ul>
 
                                 <li>
-                                    <a href="https://www.facebook.com/PerryDeFioreBooks/"
+                                <a href="https://www.facebook.com/StrattonPressInc/"
                                         target="_blank"
                                         rel="noreferrer">
                                         <FontAwesomeIcon
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://twitter.com/StrattonPress"
+                                        href="https://twitter.com/strattonpress/"
                                         rel="noreferrer"
                                     >
 
@@ -56,7 +56,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.instagram.com/strattonpress/"
+                                        href="https://www.instagram.com/strattonpress"
                                         rel="noreferrer"
                                     >
 
@@ -69,7 +69,7 @@ const Footer = () => {
                                 <li>
                                     <a
                                         target="_blank"
-                                        href="https://www.goodreads.com/author/show/3409410.Perry_Defiore"
+                                        href="https://www.goodreads.com/strattonpress/"
                                         rel="noreferrer"
                                     >
 
@@ -99,12 +99,6 @@ const Footer = () => {
                             <li>
                                 <Link to="/about-the-book">
                                     Books
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to='/videos'>
-                                    Videos
                                 </Link>
                             </li>
                             <li>

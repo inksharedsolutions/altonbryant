@@ -82,8 +82,12 @@ button{
     }
 }
 
+.btn-book-featured:hover{
+    transform: scale(1.1);
+}
+
 #___gatsby{
-    background: #857272;
+    background: linear-gradient(to bottom, #e5b67e 0,#ffff); 
 }
 
 /*Grid Elements*/

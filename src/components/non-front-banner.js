@@ -17,7 +17,7 @@ const NFB = (props)=>{
 	                        {props.contextHeading}
 	                    </h1>
 	                </div>
-	            </div>
+	            </div>	
 	        </section>
 		</>
 	)

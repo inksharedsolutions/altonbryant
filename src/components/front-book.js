@@ -18,7 +18,7 @@ const MidBook = (props)=>{
                         <div className="content-wraps">
 
                             <span className="italic-tag">
-                                Read, listen, and learn in various formats
+                                Read and learn in various formats
                             </span>
 
                             <h1 className="heading--featured">
