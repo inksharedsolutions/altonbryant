@@ -6,12 +6,12 @@ import Banner from '../components/non-front-banner'
 import { Helmet } from 'react-helmet'
 
 
-const Contact = (props)=>{
+const Contact = (props) => {
 
-    
-	function OnSubmitForm (e) {
 
-	    e.preventDefault();
+    function OnSubmitForm(e) {
+
+        e.preventDefault();
         const form = e.target;
         const data = new FormData(form);
         const xhr = new XMLHttpRequest();
@@ -22,58 +22,63 @@ const Contact = (props)=>{
             if (xhr.status === 200) {
                 form.reset();
             } else {
-            	console.log('something went wrong')
+                console.log('something went wrong')
             }
         };
 
         xhr.send(data);
     }
-    
 
-    return(
+
+    return (
         <>
             <Layout>
                 <Helmet title="Contact | Alton Bryant" />
-		 		<Nav pathExt={props.path}/>
-		 		<Banner 
+                <Nav pathExt={props.path} />
+                <Banner
                     spanFirst={`Get In`}
                     contextHeading={`Touch`}
-                 />
+                />
 
                 <main className="flexMainContainer">
                     <div className="flex-container-fx">
 
-                            <p className="contactMessage">
-                                Hello! Are you having a good day? Anyway, if you have any concerns or you just want to 
-                                share something, please feel free to drop me a line. I would love to hear anything from you.
-                            </p>
+                        <p className="contactMessage">
+                            Hello! Are you having a good day? Anyway, if you have any concerns or you just want to
+                            share something, please feel free to drop me a line. I would love to hear anything from you.
+                        </p>
 
-                            <form 
-                                onSubmit={OnSubmitForm}
-                                action="https://formspree.io/xvopdpny"
-                                method="POST">
+                        <form
+                            onSubmit={OnSubmitForm}
+                            action="https://formspree.io/f/mbjqoneo"
+                            method="POST">
 
                             <div className="columns" id="form-wrapper">
                                 <div className="column is-half">
-                            
-                                    <Inputs 
-                                        name="fullname" 
+
+                                    <input 
+                                    type="hidden" 
+                                    name= "author"
+                                    value="Alton Bryant"/>
+
+                                    <Inputs
+                                        name="fullname"
                                         type="text" />
 
                                     <Inputs
-                                        name="phone" 
+                                        name="phone"
                                         type="text" />
 
                                 </div>
-
+ 
                                 <div className="column is-half">
 
-                                    <Inputs 
+                                    <Inputs
                                         name="email"
                                         type="email" />
 
-                                    <Inputs 
-                                        name="address" 
+                                    <Inputs
+                                        name="address"
                                         type="text" />
 
                                 </div>
@@ -81,17 +86,16 @@ const Contact = (props)=>{
 
                             <div className="columns">
                                 <div className="column is-full" id="textAreaContainer">
-                                    <label htmlFor="message"> Message	</label>
-                                    <textarea type="text" name='message' 
-                                        className="textArea"
+                                    <label> Message	
+                                    <textarea type="text" name='message'
+                                        className="formInputs textArea"
                                         placeholder='Message'
-                                        id='message'
                                         required />
-            
+                                    </label>
 
                                     <div className="buttonContainer">
-                                        <input 
-                                            className="abtiaryButton" 
+                                        <input
+                                            className="abtiaryButton"
                                             value="Submit"
                                             type="submit" />
                                     </div>
@@ -121,7 +125,7 @@ const Contact = (props)=>{
                     </div>
                 </main>
 
-		 	</Layout>
+            </Layout>
         </>
     )
 }
