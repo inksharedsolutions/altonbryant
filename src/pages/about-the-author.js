@@ -56,7 +56,7 @@ const ATB = (props) => {
                                 afford the rest of the expenses of college and had no guidance on student loans. So it was no surprise when a
                                 roar of boos filled the auditorium during his graduation ceremony when it was announce that Alton chose to join
                                 the United States Marine Corps in hopes of learning a skill while being paid and attending college while the
-                                ilitary paid for it. During his 4 years of service, Alton became an Air Traffic Controller, but was denied every
+                                military paid for it. During his 4 years of service, Alton became an Air Traffic Controller, but was denied every
                                 opportunity to go to college because of a racist Gunnery Sergeant in his chain of command, who never allowed any
                                 of the black Marines to go to college. He and his fellow Marines had to watch this blatant racism with no support
                                 from the Gunnery SGT’s superiors. In the third year of his four-year, he became a Chaplain’s Assistant when they offered
@@ -77,7 +77,7 @@ const ATB = (props) => {
 
                             <p>
                                 Feeling his prayer for time was answered, he committed to a life of serving others. His roles of service include many roles in his church, 
-                                Dulles Community Church, including the role of elder and leading several team and groups. He leads community support groups and community 
+                                Dulles Community Church, including the role of elder and leading several teams and groups. He leads community support groups and community 
                                 committees. He has also joined the fight against sex trafficking. He is a founding manager at the Washington West Film Festival in Reston, 
                                 Virginia. Recently, after determining he may be able to maintain a consistent schedule, Alton became a certified mental health coach and a 
                                 Crisis Response and Trauma Care Specialist. He also became a full-time psychology student in hopes of beginning a second career to serving 
