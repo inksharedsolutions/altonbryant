@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthorImg from '../../static/author/main_author.png'
+import AuthorImg from '../../static/author/author.jpeg'
 
 const Author = () =>{
     return(
