@@ -26,6 +26,12 @@ $prm-font-size : 12px;
     
 }
 
+.rhap_container {
+    background-color: #f4e1cb;
+    // box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+    margin-bottom: 45px;
+}
+
 .wrapper-ds{
     display: flex;
     flex-direction: column;
