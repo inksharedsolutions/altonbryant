@@ -28,6 +28,13 @@ const BookLink = (props)=>{
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.booksamillion}>Books A Million</a></li>
                         </nav> 
                     )}
+                    {!Object.entries(props.data.audiobooks).length == 0 && (
+
+                        <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
+                            <span>{`${props.data.isNonfront?'Audiobook': ''}`}</span>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.audiobooks.audiobook}>Audiobook</a></li>
+                        </nav> 
+                    )}
 
                     {!Object.entries(props.data.reviews).length == 0 && (
                         

@@ -19,6 +19,7 @@ const IndexPage = (props) => (
       <MidBook/>
       <Author/>
       <ParallaxBottom />
+      <Video/>
       <FeaturedLogos/>
   </Layout>
 )

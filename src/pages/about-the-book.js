@@ -75,6 +75,9 @@ const ATB = (props) => {
                   barnes: 'https://www.barnesandnoble.com/w/the-marlagans-alton-bryant/1140505765?ean=9781648956270',
                   booksamillion: 'https://www.booksamillion.com/p/Marlagans/Alton-Bryant/9781648956270?id=8158356429268',
                 },
+                audiobooks: {
+                  audiobook: 'https://www.audible.com/pd/The-Marlagans-For-Mars-Audiobook/B09ZNKQG6Q?qid=1653265760&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=QN9Q5YN5M1TMC088711A',
+                },
                 isComingSoon: false,
               }}
             />
