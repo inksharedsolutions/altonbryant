@@ -7,14 +7,8 @@ import { DiscussionEmbed } from "disqus-react"
 
 /*Images Imports*/
 import Book1 from '../../static/books/Book_Cover.png'
-import Book2 from '../../static/books/Book_Cover_02.png'
-import Book3 from '../../static/books/Book_Cover_03.png'
-import Book4 from '../../static/books/Book_Cover_04.png'
-import Book5 from '../../static/books/Book_Cover_05.png'
-import Book6 from '../../static/books/Book_Cover_06.png'
-import Book7 from '../../static/books/Book_Cover_07.png'
-import Book8 from '../../static/books/Book_Cover_08.png'
-import Coming from '../../static/books/Book_Coming.png'
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 import { Helmet } from 'react-helmet'
 
 
@@ -45,12 +39,13 @@ const ATB = (props) => {
           <div
             className="container"
             id="book-containers" >
-
+             
             <BookInfo
               data={{
                 title: `THE MARLAGANS For Mars`,
                 spanFirst: ``,
                 imgSrc: Book1,
+                
                 id: 'the_gifted_one',
                 content:
                   `
@@ -81,6 +76,12 @@ const ATB = (props) => {
                 isComingSoon: false,
               }}
             />
+            <h3> Sample AudioBook</h3>
+            <AudioPlayer
+                                src="https://samples.audible.com/bk/acx0/307839/bk_acx0_307839_sample.mp3"
+                                onPlay={e => console.log("onPlay")}
+                                // other props here
+                            />
 
             <div className="commentSection">
               <div id="disqus_thread">
