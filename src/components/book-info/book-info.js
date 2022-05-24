@@ -42,6 +42,9 @@ const BookInfo = (props)=>{
                                 barnes: props.data.paperback.barnes,
                                 booksamillion: props.data.paperback.booksamillion,
                             },
+                            audiobooks:{
+                                audiobook: props.data.audiobooks.audiobook,
+                            },
                             isComingSoon : props.data.isComingSoon,
                             reviews:{},
                             isNonfront:true,
