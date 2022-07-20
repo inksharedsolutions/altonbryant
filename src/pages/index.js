@@ -7,7 +7,7 @@ import Author from "../components/author"
 import MidBook from "../components/front-book"
 import FeaturedLogos from "../components/mid-main"
 import ParallaxBottom from "../components/parallax-bottom"
-import Video from "../components/trailer"
+// import Video from "../components/trailer"
 import { Helmet } from "react-helmet"
 
 

@@ -14,6 +14,7 @@
     "bulma": "^0.8.2",
     "disqus": "^0.3.0",
     "disqus-react": "^1.0.8",
+    "esm": "^3.2.25",
     "gatsby": "^2.21.37",
     "gatsby-image": "^2.4.4",
     "gatsby-plugin-manifest": "^2.4.5",
@@ -35,12 +36,13 @@
     "react-helmet": "^6.0.0",
     "react-player": "^2.6.0",
     "react-slick": "^0.26.1",
-    "sass": "^1.48.0",
+    "sass": "1.32.13",
     "three": "^0.119.1",
     "vanta": "^0.5.18"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "sass": "1.32.13"
   },
   "keywords": [
     "gatsby"

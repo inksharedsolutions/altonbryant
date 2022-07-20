@@ -98,7 +98,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Link to="/about-the-book">
-                                    Book
+                                    Books
                                 </Link>
                             </li>
                             <li>

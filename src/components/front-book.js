@@ -10,6 +10,11 @@ const MidBook = (props)=>{
             <section className="upper-main">
                 <div className="container-gt separator-line">
 
+                    <p className='italic-tag' style={{backgroundColor: '#F38D88', color: 'white', borderRadius: '25px'}}>
+                        <Link to="/about-the-book#book2"><u style={{color: 'white'}}>The Marlagans for Mars Book 2</u></Link>
+                        &nbsp; is now up. 
+                    </p>
+
                     <div className="grid-two-columns" id="wrapper-two-books">
 
                         <div className="book-wraps">
