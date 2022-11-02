@@ -66,12 +66,11 @@ const Nav = (props) =>{
                                 Books
                             </Link>
                         </li>
-                        {/* <li>
-                            <Link
-                                to='/videos'>
-                                Videos
+                        <li>
+                            <Link href="https://shop.altonbryantbooks.com/" target="_blank">
+                                Shop
                             </Link>
-                        </li> */}
+                        </li>
                         <li>
                             <Link
                                 to='/contact'>
