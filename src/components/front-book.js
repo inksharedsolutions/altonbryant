@@ -11,7 +11,7 @@ const MidBook = (props)=>{
                 <div className="container-gt separator-line">
 
                     <p className='italic-tag' style={{backgroundColor: '#F38D88', color: 'white', borderRadius: '25px'}}>
-                        <Link to="/about-the-book#book2"><u style={{color: 'white'}}>The Marlagans for Mars Book 2</u></Link>
+                        <Link to="/about-the-book#book3"><u style={{color: 'white'}}>The Marlagans for Mars Book 3</u></Link>
                         &nbsp; is now up. 
                     </p>
 

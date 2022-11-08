@@ -8,6 +8,7 @@ import { DiscussionEmbed } from "disqus-react"
 /*Images Imports*/
 import Book1 from '../../static/books/Book_Cover.png'
 import Book2 from '../../static/books/book2.png'
+import Book3 from '../../static/books/book3.png'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { Helmet } from 'react-helmet'
@@ -80,6 +81,7 @@ const ATB = (props) => {
                 isComingSoon: false,
               }}
             />
+            
             <h3> Sample AudioBook</h3>
             <AudioPlayer 
               src="https://samples.audible.com/bk/acx0/307839/bk_acx0_307839_sample.mp3"
@@ -92,6 +94,52 @@ const ATB = (props) => {
                 imgSrc: Book2,
                 
                 id: 'book2',
+                content:
+                  `
+                    <p>
+                      Humans live, work and play throughout the solar system.
+                      Ferdinand Abernaum, born with multiple birth defects,
+                      is now a premiere coder who has augmented his abilities
+                      beyond general human capabilities. Now he is a member
+                      of an elite team of universal explorers, The Marlagans.
+                      He, Jim, Becca, Zin and Rhoan accept their first mission
+                      since the recent death of their former crew mate, Dr.
+                      Banthira. Join us as the Marlagans face threats from
+                      every angle on their latest controversial and confidential
+                      mission. After a mission start unlike any other, the crew
+                      must try to survive unforeseen perils at every turn and
+                      stay ahead of obvious sabotage...and something else that's
+                      lurking.
+                    </p>
+                  `,
+
+                ebooks: {
+                  stratton: '',
+                  barnes: 'https://www.barnesandnoble.com/w/the-marlagans-alton-bryant/1141235315?ean=9781648957758',
+                  amazon: 'https://www.amazon.com/Marlagans-Book-Two-Alton-Bryant-ebook/dp/B09WHRX264/ref=sr_1_1?keywords=9781648957758&qid=1658312874&sr=8-1',
+                },
+                paperback: {
+                  amazon: 'https://www.amazon.com/Marlagans-Book-Two-Alton-Bryant/dp/1648957749/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1658312874&sr=8-1',
+                  barnes: 'https://www.barnesandnoble.com/w/the-marlagans-alton-bryant/1141235315?ean=9781648957741',
+                  booksamillion: 'https://www.booksamillion.com/p/Marlagans/Alton-Bryant/9781648957741?id=8158356429268',
+                },
+                hardcover: {
+                  amazon: 'https://www.amazon.com/Marlagans-Book-Two-Alton-Bryant/dp/1648957765/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1658312874&sr=8-1',
+                  barnes: 'https://www.barnesandnoble.com/w/the-marlagans-alton-bryant/1141235315?ean=9781648957765',
+                  booksamillion: 'https://www.booksamillion.com/p/Marlagans/Alton-Bryant/9781648957765?id=8158356429268',
+                },
+                audiobook: '',
+                isComingSoon: false,
+              }}
+            />
+            <hr />
+            <BookInfo
+              data={{
+                title: `THE MARLAGANS For Mars`,
+                spanFirst: `Book 3`,
+                imgSrc: Book3,
+                
+                id: 'book3',
                 content:
                   `
                     <p>
